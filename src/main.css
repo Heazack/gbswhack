@@ -1,0 +1,153 @@
+/* 폰트 */
+
+@font-face {
+  font-family: 'LINESeedKR-Bd';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+.all {
+  font-family: 'LINESeedKR-Bd', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+.head-text {
+  font-family: 'Lemon', sans-serif;
+}
+
+/* a태그 */
+
+a {
+  all: unset;
+}
+
+a:link,
+a:visited,
+a:active,
+a:hover {
+  text-decoration: none;
+}
+
+/* header */
+.head-box {
+  width: 50%;
+  top: 0;
+  left: 0;
+  height: 80px;
+}
+
+.head-text {
+  color: red;
+  margin: 0 20%;
+  height: 100%;
+  cursor: pointer;
+  font-size: 20px;
+  align-items: center;
+  display: flex;
+}
+
+.top_text-box {
+  width: 30%;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  height: 80px;
+}
+
+.top_text {
+  margin-right: 10px;
+  font-size: 20px;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+}
+
+/* section banner */
+
+.section_container {
+  display: flex;
+  margin-top: 5%;
+  list-style: none;
+}
+
+.section_banner {
+  background-color: #f3f4f8;
+  margin-left: 30px;
+  height: 400px;
+  width: 850px;
+  border-radius: 15px;
+  position: relative;
+}
+
+.banner {
+  height: 400px;
+  background-size: cover;
+  background: url(./img/banner.png);
+  background-repeat: no-repeat;
+  background-position: 0 30%;
+  margin: auto;
+  border-radius: 15px;
+  z-index: 1;
+}
+
+/* section user */
+
+.section_user {
+  background-color: #f3f4f8;
+  margin-left: 100px;
+  height: 400px;
+  width: 500px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.user {
+  background-color: #F42E3D;
+  margin-top: 10%;
+  height: 350px;
+  width: 500px;
+  border-radius: 20px 0 20px 20px;
+  position: relative;
+}
+
+.user_text {
+  color: #f3f4f8;
+  font-size: 25px;
+  width: 300px;
+  display: flex;
+  text-align: center;
+  margin: 0 140px 0;
+}
+
+.user_prograssbar {
+  border-color: black;
+  border-style: groove;
+  background-color: #f3f4f8;
+  width: 390px;
+  height: 55px;
+  border-width: 2px;
+  border-radius: 29px;
+  margin: auto;
+  margin-top: 17px;
+}
+
+.user_prograssbar_t {
+  background-color: #F42E3D;
+  width: 166px;
+  height: 55px;
+  border-radius: 29px;
+  z-index: 1;
+}
+
+.done_cou {
+  color: #f3f4f8;
+  font-size: 25px;
+  width: 300px;
+  display: flex;
+  text-align: center;
+  margin: 0 140px 0;
+}
